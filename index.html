@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <h1 class="  display-2 text-center "> ToDo APP </h1>
+    <div class="container col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="from-group">
+                    <label> Add task </label>
+                    <input id="Taskinput" type="text" placeholder="Your Task" class="from-control col-md-12" >
+                    <div id="valid" class="alert alert-danger none">
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h6> Please Enter Valid Data</h6> 
+                    </div>
+                </div>
+                <button id="TaskBtn" class="btn btn-info btn-block mx-auto w-50"> Add Task </button>
+            </div>
+        </div>
+    </div>
+    <div class="container col-md-6 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div   id="AddTaskes1"class="alert alert-info text-center">
+                    <h5>No Taskes ADDed yet</h5>
+                    
+                </div>
+                <div class=" NewTaskes ">
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

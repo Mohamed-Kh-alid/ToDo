@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    text-align: center;
+}
+.card{
+    background-color: rgba(78, 7, 37, 0.897);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+label{
+    font-size:  30px;
+    font-weight: 200;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body .container .card .card-body .btn{
+    margin-top: 15px;
+    
+} 
+.none{
+    display: none;
+}
+
+body .btn1{
+    color: aqua;
+    border-radius: 5px;
+    margin-top: 200px;
+    width: 20%;
+    height: 50px;
+    border: 0px;
+    background-color: #333;
+    
+    
+
+
+}
+
+
